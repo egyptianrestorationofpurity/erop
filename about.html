@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E.R.P.</title>
+	<style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    p {
+      line-height: 1.6;
+      color: #666;
+    }
+  </style>
+
+</head>
+<body>
+    <header>
+  <h1>Egyptian Restoration of Purity</h1>
+   <button class="openbtn" onclick="toggleSidebar()">☰</button>
+   </header>
+<div id="sidebar">
+    
+               <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+				<li><a href="prizes.html">Prizes</a></li>
+                <li><a href="FAQ.html">FAQs</a></li>
+                <li><a href="blog.html">Blog/News</a></li>
+ </div>
+    <main>
+        <div class="container">
+    <h1>About Us</h1>
+    <p>Welcome to Egyptian Restoration of Purity. Our mission is simple yet profound: 
+	to restore purity to the beautiful land of Egypt through collective action and innovative technology.</p>
+    <p>At E.R.P., we believe that every individual has a role to play in preserving the environment. 
+	That's why we've created a unique volunteering opportunity where anyone can contribute to the cause
+	by picking up trash. But we don't stop there - our revolutionary trash collection machine takes the
+	process to the next level.</p>
+    <p>Once you've filled your trash bag, simply place it inside our cutting-edge machine. This marvel 
+	of technology not only efficiently scans the trash for recyclable materials but also rewards your 
+	efforts with a special promo code. This code can be redeemed for vouchers that offer discounts or 
+	incentives from our partner businesses.</p>
+    <h2>Our Vision</h2>
+    <p>Our vision at E.R.P. is to inspire a culture of environmental stewardship and responsibility.
+	By empowering individuals to take action and rewarding their contributions, we aim to create a cleaner, 
+	greener, and more sustainable future for Egypt.</p>
+    <h2>Join Us</h2>
+    <p>Whether you're a student, a professional, or a concerned citizen, there's a place for you at E.R.P. 
+	Join us in our mission to restore purity to Egypt and make a positive impact on our environment. 
+	Together, we can achieve remarkable things.</p>
+  </div>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-section">
+            <h2>Contact Us</h2>
+            <p>Phone: 01011116106</p>
+            <p>Email: egyptianrestorationofpurity@gmail.com</p>
+        </div>
+        <div class="footer-section">
+            <h2>Donation</h2>
+            <p>Bank Account Number: XXXX-XXXX-XXXX</p>
+        </div>
+        <div class="footer-section">
+            <h2>Social Media</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=61558191875663&mibextid=YMEMSu">Facebook</a></li>
+                <li><a href="https://x.com/e_r_p_01/status/1778430959089562007?s=46&t=8jevkDT3bJFFvlQ6m-NGmA">Twitter</a></li>
+                <li><a href="https://www.instagram.com/egyptian_restoration_of_purity?igsh=MTVkMGpoNzdjZWNucg%3D%3D&utm_source=qr">Instagram</a></li>
+            </ul>
+        </div>
+      
+        <div class="footer-section">
+            <h2>Headquarters</h2>
+            <p>Sheikh Zayed, Cairo, Egypt</p>
+        </div>
+		<p>&copy; 2024. All rights reserved.</p>
+    </footer>
+<script>
+  function toggleSidebar() {
+    var sidebar = document.getElementById("sidebar");
+    var openbtn = document.querySelector(".openbtn");
+    if (sidebar.style.width === "250px") {
+      sidebar.style.width = "0";
+      openbtn.classList.remove("active");
+    } else {
+      sidebar.style.width = "250px";
+      openbtn.classList.add("active");
+    }
+  }
+</script>
+</body>
+</html>

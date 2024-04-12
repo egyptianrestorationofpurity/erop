@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E.R.P.</title>
+</head>
+<body>
+     <header>
+  <h1>Egyptian Restoration of Purity</h1>
+   <button class="openbtn" onclick="toggleSidebar()">☰</button>
+   </header>
+<div id="sidebar">
+    
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+				<li><a href="prizes.html">Prizes</a></li>
+                <li><a href="FAQ.html">FAQs</a></li>
+                <li><a href="blog.html">Blog/News</a></li>
+ </div>
+    <main>
+       <div class="footer-section">
+            <h2>Prize</h2>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <input type="Code" placeholder="Your Code">
+                 <button id="redirectButton">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-section">
+            <h2>Contact Us</h2>
+            <p>Phone: 01011116106</p>
+            <p>Email: egyptianrestorationofpurity@gmail.com</p>
+        </div>
+        <div class="footer-section">
+            <h2>Donation</h2>
+            <p>Bank Account Number: XXXX-XXXX-XXXX</p>
+        </div>
+        <div class="footer-section">
+            <h2>Social Media</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=61558191875663&mibextid=YMEMSu">Facebook</a></li>
+                <li><a href="https://x.com/e_r_p_01/status/1778430959089562007?s=46&t=8jevkDT3bJFFvlQ6m-NGmA">Twitter</a></li>
+                <li><a href="https://www.instagram.com/egyptian_restoration_of_purity?igsh=MTVkMGpoNzdjZWNucg%3D%3D&utm_source=qr">Instagram</a></li>
+            </ul>
+        </div>
+      
+        <div class="footer-section">
+            <h2>Headquarters</h2>
+            <p>Sheikh Zayed, Cairo, Egypt</p>
+        </div>
+		<p>&copy; 2024. All rights reserved.</p>
+    </footer>
+<script>
+  function toggleSidebar() {
+    var sidebar = document.getElementById("sidebar");
+    var openbtn = document.querySelector(".openbtn");
+    if (sidebar.style.width === "250px") {
+      sidebar.style.width = "0";
+      openbtn.classList.remove("active");
+    } else {
+      sidebar.style.width = "250px";
+      openbtn.classList.add("active");
+    }
+  }
+</script>
+
+ <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the button element
+            const button = document.getElementById('redirectButton');
+
+            // Add click event listener to the button
+            button.addEventListener('click', function() {
+                // Redirect to the specified page
+                window.location.href = 'promo.html'; // Replace 'page2.html' with your actual URL
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+.promo-bar {
+  width: 100%;
+  height: 40px; 
+  background-color: #a9c3b6;
+  color: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999; 
+  padding: 10px 0; 
+  text-align: center;
+}
+
+.moving-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: moveText 30s linear infinite; 
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+  
+  #sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #cedfdf;
+    background-color: #cedfdf;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1;
+  }
+
+ 
+  #sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+
+  }
+
+  /* Change the link color on hover */
+  #sidebar a:hover {
+    color: white;
+  }
+
+  /* Style the header */
+  header {
+    background-color: #91ac9a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+	height: 40px;
+    margin-top: 50px;
+	width: 99%;
+  }
+
+  /* Style the button that opens the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #a6c3ce;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+
+  /* Rotate the button on hover */
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+  /* Rotate the button when the sidebar is opened */
+  .openbtn.active {
+    transform: rotate(180deg);
+  }
+  h2 {
+	  text-align: left;
+	  color: black;
+  }
+  h1{ 
+	  text-align: center;
+  }
+ 
+   .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  table {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+  }
+  table td {
+    padding: 20px;
+  }
+  img {
+    width: 900px;
+    height: auto;
+	display: block;
+	margin: 0 auto;
+  }
+.container2 {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+	background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+footer {
+    background-color: #91ac9a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+        }
+.footer-item {
+    flex: 1;
+    margin: 10px;
+        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f7f4; /* Light blue background */
+}
+/* Add styles for the footer */
+.footer {
+    background-color: #91ac9a; /* Light green background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+
+.footer-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin-bottom: 5px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section form input,
+.footer-section form textarea,
+.footer-section form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.footer-section form button {
+    background-color: #015249; /* Dark green button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-section form button:hover {
+    background-color: #013932; /* Darker green on hover */
+}
